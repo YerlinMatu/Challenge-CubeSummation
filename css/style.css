@@ -1,0 +1,58 @@
+nav {
+  background-color: #157ecb;
+}
+
+nav img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+nav .logo {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: block;
+  width: 300px;
+}
+
+.dataInput {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 95%;
+}
+
+.dataInput #error {
+  color: #c0392b;
+}
+
+.dataInput #output {
+  color: #f39c12;
+}
+
+.dataInput button, .dataInput .btn {
+  background-color: #157ecb;
+  border-radius: 25px;
+}
+
+.dataInput button:hover, .dataInput .btn:hover {
+  background-color: #157ecb;
+}
+
+.dataInput button:focus, .dataInput .btn:focus {
+  background-color: #157ecb;
+}
+
+body {
+  background-color: #274c5e;
+  color: #fff;
+}
+
+body textarea {
+  color: black !important;
+  position: relative;
+  overflow: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}

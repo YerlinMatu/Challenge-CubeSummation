@@ -1,0 +1,44 @@
+$bluedots: #157ecb;
+$backcolor: #274c5e;
+nav {
+   background-color: $bluedots;
+  img {
+    margin-top: 10px;
+    width: 150px;
+  }
+  .logo {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    width: 300px;
+  }
+}
+
+.dataInput {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 95%;
+  #error { color: #c0392b }
+  #output { color: #f39c12 }
+  button, .btn {  
+  background-color: $bluedots;
+  border-radius: 25px;
+  &:hover { background-color : $bluedots }
+  &:focus { background-color : $bluedots }
+  }
+  
+}
+
+body {
+  background-color: $backcolor;
+  color: #fff;
+  textarea { color: black !important;
+  position: relative;
+  overflow: auto;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}

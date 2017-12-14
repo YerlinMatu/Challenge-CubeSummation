@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Cube Summation</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/g/normalize@3.0,skeleton@2.0'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <main>
+<header>
+  <nav class="fixed">
+    <a href="#" class="brand-logo center"><img :src="logo" alt="ubidots"></a>
+  </nav>
+</header>
+  <div class="container">
+    <div class="box animated fadeIn">
+      <div class="dataInput">
+      <h4>Cube Summation</h4>
+        <div class="collection-item">
+        <textarea placeholder="Digite las instruciones" v-model="info"></textarea>
+          <p name="error" id="error" v-show="info"></p>
+          <button class="btn waves-effect waves-light btn" @click="Run">Ejecutar</button>
+          <button class="btn waves-effect waves-light btn" @click="DeleteData" v-show="info.length">Resetear 
+        <i class="material-icons">clear</i></button>
+        </div>
+        <h4>Output ( {{ info.length }} )</h4>
+        <span>Resultado</span>
+        <div id="output"></div>
+      </div>
+    </div>
+  </div>
+</main>
+  <footer>
+  <div class="footer-copyright">
+    <div class="container">
+    © Dev: Yerlinson Maturana 
+    <a class="container text-lighten-4 right" href="https://github.com/YerlinMatu">Github</a>
+    </div>
+  </div>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
