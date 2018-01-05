@@ -7,7 +7,7 @@
 ### ------------------------
 [Testear solamente](https://yerlinmatu.github.io/Challenge-CubeSummation/)
 ### Input para prueba.
-Para probar será necesario pegar estos datos en el textare con su formato ilustrado abajo. 
+Para probar será necesario pegar estos datos en el textarea con su formato ilustrado abajo. 
 ```
 2
 4 5
